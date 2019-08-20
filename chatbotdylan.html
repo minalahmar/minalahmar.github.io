@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>BOT DYLAN!</title>
+<link href='https://fonts.googleapis.com/css?family=Alegreya Sans SC' rel='stylesheet'>
+<style>
+  body, html {
+  height: 100%;
+  margin: 0;
+  font-family: 'Alegreya Sans SC';
+}
+
+/* Style tab links */
+.tablink {
+  background-color: paleturquoise;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+  font: 'Alegreya Sans SC';
+}
+
+.tablink:hover {
+  background-color: indigo;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: indigo;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+}
+body{
+    margin: 0;
+    font-family: 'Alegreya Sans SC';
+     }
+
+     .topnav {
+       overflow: hidden;
+       background-color: paleturquoise;
+     }
+
+     .topnav a {
+       color: indigo;
+       text-align: center;
+       padding: 30px 30px;
+       text-decoration: none;
+       font-size: 27px;
+     }
+
+     .topnav a:hover {
+       background-color: indigo;
+       color: black;
+     }
+
+     .topnav a.active {
+       background-color: peachpuff;
+       color: peachpuff;
+     }
+     nav{
+       text-align: center;
+       line-height: 50px;
+     }
+     .center {
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+       width: 50%;
+     }
+  body{
+
+    background-color:  paleturquoise;
+    h4{text-align: center;}
+    h4{color: white;}
+    background-color: {cornflowerblue;}
+    h6{text-align: center;}
+    h6{color: white;}
+    h4{font-family: 'Alegreya Sans SC'; font-size: 100px;}
+    h6{font-family: 'Alegreya Sans SC'; font-size: 32px;}
+    p{text-align: center; color: white;}
+    p{font-family: 'Alegreya Sans SC'; font-size: 80px;}
+    h3{font-family: 'Alegreya Sans SC'; font-size: 80px;}
+    h3{text-align: center;}
+}
+
+
+  /* Slideshow container */
+  .slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  .prev {
+    left: 0;
+    border-radius: 3px 0 0 3px;
+  }
+
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 25px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+    .prev, .next,.text {font-size: 11px}
+  }
+  </style>
+
+    <html lang="em" dir="ltr">
+
+</head>
+
+<body>
+<nav>
+  <ul class="topnav">
+     <button class="tablink" onclick="openPage('Home', this, 'indigo')" id="defaultOpen">Home</button>
+    <button class="tablink" onclick="openPage('Gallery', this, 'indigo')">Gallery</button>
+     <button class="tablink" onclick="openPage('Creators', this, 'indigo')">Creators</button>
+    <button class="tablink" onclick="openPage('Fireside Chats', this, 'indigo')">Fireside Chats</button>
+   </ul>
+ </nav>
+
+<div id="Home" class="tabcontent">
+  <h4>MEET THE ROBOT</h4>
+  <img src="https://live.staticflickr.com/65535/48536247821_b0b03a05eb_z.jpg" style="width:50%" class="center">
+  <h4> Bot Dylan</h4>
+  <p>Bot Dylan is our beautiful little BOE-BOT! He's three weeks old, give or take, and he's the prodigal son of Stefanie, Mira, Farhin, and Minal.</p>
+</div>
+
+<div id="Gallery" class="tabcontent">
+  <h3>Gallery</h3>
+  <p>Bot Dylan's photoshoot! Click the arrow buttons in order to see the whole collection. </p>
+   <div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 5</div>
+      <img src="https://live.staticflickr.com/65535/48536254206_79efd03c10_z.jpg" style="width:75%" class = "center">
+      <div class="text"></div>
+
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 5</div>
+      <img src="https://live.staticflickr.com/65535/48536394802_049ccb5b47_z.jpg" style="width:75%" class = "center">
+      <div class="text"></div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">4 / 5</div>
+      <img src="https://live.staticflickr.com/65535/48536251236_ecb01f4a2b_z.jpg" style="width:75%" class = "center">
+      <div class="text"></div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">5 / 5</div>
+      <img src="https://live.staticflickr.com/65535/48536400272_c67d57e431_z.jpg" style="width:75%" class = "center">
+      <div class="text"></div>
+    </div>
+
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+  </div>
+  <br>
+
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+  </div>
+
+</div>
+
+<div id="Creators" class="tabcontent">
+  <p> (You can find Bot Dylan at his home in Pfizer, at 235 E. 42 St. in the Big Apple!) </p>
+  <h4>About The Creators</h4>
+  <h5>Stefanie Gschwind </h5>
+  <div class = "center"> <em> Co-Lead Mechanical Engineer </em> </div>
+  <div class = "center"> Along with her Co-Mechanical Engineer Minal, Stefanie built the maze using varying pieces of cardboard and debugged the robot.</div>
+  <h5> Minal Ahmar </h5>
+  <div class = "center"> <em> Co-Lead Mechanical Engineer </em> </div>
+  <div class = "center"> Minal calculated the dimensions and built the maze with her Co-Mechanical engineer Stefanie. </div>
+  <h5> Mira-Rose Kingsbury Lee </h5>
+  <div class = "center"> <em> Co-Lead Programmer and Website Designer </em> </div>
+  <div class = "center"> Along with Farhin, Mira programmed and debugged the robot to be able to navigate the maze. In addition to programming the robot, Mira also programmed a website and chatbot for the robot. </div>
+  <h5> Farhin Bhuiyan </h5>
+  <div class = "center"> <em> Maze Designer, Co-Lead Programmer, and Website Designer </em> </div>
+  <div class = "center"> Farhin designed the maze and was able to program and debug the robot with her Co-Programmer Mira to allow the robot to navigate the maze. In addition to programming the robot, Farhin also assisted in programming the website for the robot. </div>
+
+</div>
+
+<div id="Fireside Chats" class="tabcontent">
+  <!DOCTYPE html>
+  <html>
+      <head><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+          <title>fireside chats!</title>
+      </head>
+      <body  style="text-align:center;">
+        <textarea readonly="true" id="botChat" style="text-align:left; position:fixed; display:block; top:20vh; border:1px solid black; width:92.5vw; margin-left:1%; margin-right:2.25%; height:50vh; resize:none; font-family:'Alegreya Sans SC'; overflow-y:auto; user-select:none; font-size:3vw; color:indigo;"></textarea>
+        <p style="position:absolute; border:1px solid black; top:70vh; left:12.25vw; width:75vw;">
+          <input type="text" placeholder="go for it!" onKeypress="enterButton(event, document.getElementsByTagName('input')[0].value);" style="color:white; background-color:indigo; width:79%;">
+          <button onClick="answer(document.getElementsByTagName('input')[0].value)">talk!</button></p>
+          <button style="font-family:'Alegreya Sans SC'; background-color: indigo;"></button>
+      <script>
+
+  var you = "me";
+  botSays("hello there! i'm bot dylan, brainchild of stef, mira, farhin, and minal. why don't you sit down and we can have a chat?\nfirst, tell me your name. type !name and then your name to change your name in my logs. type !menu for a more comprehensive idea of what i can do! (a tip: tell me you love me first and i'll hold a much better conversation).")
+  var Hello = ["HI", "HEY", "HOWDY", "HEYA", "HOLA", "HELLO", "SUP", "KONNICHIWA", "ALOHA"]
+  var Goodbye = ["BYE", "SEE YA", "CYA", "LATER", "ADIOS", "SAYONARA", "SEEYA"]
+  var Greeting = ["WHAT'S UP", "HOW'S IT GOING", "HOW ARE YOU", "NICE DAY", "GOOD MORNING", "GOOD NIGHT", "WHATS UP", "HOWS IT GOING", "SUP", "HOW ARE U", "HOW R U", "YO", "BONJOUR"]
+  var Name = [ "WHAT IS YOUR NAME", "WHAT'S YOUR NAME", "WHO ARE YOU", "WHAT DO THEY CALL YOU", "COMO TE LLAMAS"]
+  var Actions = ["HELP", "DRINK", "CHALLENGE", "I LOVE YOU"]
+  var Questions = ["QUESTION", "QUIZ", "CODE", "ANSWER", "HTML", "CSS", "JAVASCRIPT", "WHO MADE YOU", "WHY DON'T YOU WORK", "HOW ARE YOU"];
+  var colors = ["BLUE", "RED", "GREEN", "YELLOW", "WHITE", "BLACK", "SILVER", "GRAY" ];
+  var Else = true;
+  var questions = [colors, Hello, Goodbye, Greeting, Name, Actions, Questions];
+  var reactions=[BotHello, BotGoodbye,BotGreeting];
+  var BotHello = ["HI", "HEY", "HOWDY", "HEYA", "HOLA", "HELLO", "SUP", "KONNICHIWA", "ALOHA", "YO", "BONJOUR"]
+  var BotGoodbye = ["BYE", "SEE YA", "CYA", "LATER", "ADIOS", "SAYONARA", "SEEYA"]
+  var BotGreeting = ["MORNING", "CHEERIO", "WELL HELLO THERE", "YOU LOOK SMASHING", "WELCOME IN, DEAR"]
+  var BotPleasant = ["beep beep boop boop!", "please, take some tea.", "lovely to see you!", "what ho!", "cheerio!", "right-o!"]
+
+  function answer(x) {
+      var botOut = botChat.value;
+      document.getElementsByTagName("textarea")[0] = botChat
+                  document.getElementsByTagName("input")[0].value = ""
+                  if (x.charAt(0).includes("!") === false){
+                  youSay(x); botChat.scrollTop = botChat.scrollHeight;
+                  }
+
+                  question = x.toUpperCase()
+                  for (i = 0; i < 15; i++) {
+                  if (question === "" || null) {
+                      setTimeout( function() { botSays("\nbot dylan : hello, darling!"); botChat.scrollTop = botChat.scrollHeight;}, 600);
+                  return; }
+                  else if (question === "!MENU" ) {
+                  botSays("\n\ncommands: !name then your name, !bgcolor then your background color of preference, !text then your text color of preference, !menu, !secrets, !tutorial, !botsay then whatever you wish to make me say, and !me and whatever you wish the text to do. remember- with great power comes great responsibility."); botChat.scrollTop = botChat.scrollHeight;
+                  return;
+                  }else if (question.slice(0,9).includes("!BGCOLOR ") ) {
+                      botSays("\n\nchanged the background color to " + x.slice(9) ); botChat.scrollTop = botChat.scrollHeight; botChat.style.backgroundColor = x.slice(9);
+                  return;
+                  } else if (question.slice(0,6).includes("!TEXT ") ) {
+                      botSays("\n\nchanged the text color to " + x.slice(6) ); botChat.scrollTop = botChat.scrollHeight; botChat.style.color = x.slice(6);
+                  return;
+                  } else if (question.slice(0,6).includes("!NAME ") ) {
+                      you = x.slice(6);
+                      botSays("\n\npleasure to have you, " + you); botChat.scrollTop = botChat.scrollHeight;
+                  return;
+                  } else if (question.slice(0,9).includes("!SECRETS") ) {
+                      botSays("\n\nbot dylan : i'm afraid i have nothing to hide."); botChat.scrollTop = botChat.scrollHeight;
+                  return;
+                  }
+                  else if (question.slice(0,10).includes("!TUTORIAL") ) {
+                      botSays("\n\nsilly, there's no tutorial for a conversation!"); botChat.scrollTop = botChat.scrollHeight;
+                  return;
+                  }
+                  else if (question.slice(0,10).includes("!BOTSAY") ) {
+                      botSays("\nbot dylan : " + x.slice(8)); botChat.scrollTop = botChat.scrollHeight;
+                  return;
+                  } else if (question.slice(0,4).includes("!ME") ) {
+                      youDo(x.slice(4)); botChat.scrollTop = botChat.scrollHeight;
+                  return;
+                  }
+
+                  if (question.includes(Goodbye[i])) {
+                      Else = false;
+                      setTimeout(botSays, 600, "\nbot dylan : onwards and upwards! remember- my door is always open to you.")
+                  } else if (question.includes(Name[i])) {
+                      Else = false; setTimeout(botSays, 600, "\nbot dylan : don't worry, i can't read either. my name is bot dylan!")
+                  } else if (question.includes(Actions[i])) {
+                      Else = false; if (question.includes("CHALLENGE")) { setTimeout(botSays, 600, "\nbot dylan : well, if you want a challenge, try debugging me!") }
+                      else if (question.includes("LOVE")) {
+                        botSays("\nbot dylan : je t'aime plus.")
+                      }
+                      else { setTimeout(botSays, 600, "\nbot dylan : remember, use my commands !menu & !tutorial to see what i can do.") }
+                  } else if (question.includes(Questions[i])) {
+                      Else = false; if (Questions[i].includes("HOW ARE YOU")) {
+                          botSays("")
+                        }
+
+                      else if (question.includes(Questions[i])) {
+                        Else = false; if (Questions[i].includes("WHO MADE YOU")) {
+                          botSays("\nbot dylan : my creators are stefanie gschwind, mira-rose kingsbury lee, farhin bhuiyan, and minal ahmar!")
+                        }
+                      }
+
+                      else if (question.includes(Questions[i])) {
+                        Else = false; if (Questions[i].includes("WHY DON'T YOU WORK")) {
+                          botSays("\nbot dylan : well, you know how these things are. my mums always tell me i'm a bit off in the head.")
+                        }
+                      }
+
+
+                      else { setTimeout(botSays, 600, "\nbot dylan : remember- use my commands !menu & !tutorial to see what i can do.") }
+                   }else if (question.includes(Greeting[i])) {
+                      Else = false; if (Greeting[i].includes("HOW ARE YOU")) {
+                      var reactHello = "ah, you're too kind!";
+                      var reactGreeting = "i'm very well, thank you." }
+                    else {
+                     num = Math.ceil(Math.random()*3)
+                      var reactHello = Greeting[num]
+                      reactHello = reactHello.toLowerCase();
+                      reactHello = reactHello + "!";
+                      var reactGreeting = "i've been very busy, but i can always make time for you!";
+                      }
+                      var reactPleasant = BotPleasant[num]
+                      setTimeout(botSays, 600, "\nbot dylan : " + reactHello + " " + reactGreeting + " " + reactPleasant )
+                    }
+                    else if (question.includes(Hello[i])) {
+                    var reactHello = Hello[i];
+                    reactHello = reactHello.toLowerCase();
+                    var reactGreeting = "";
+                    var reactPleasant = "";
+                      Else = false;
+                        setTimeout(botSays, 600, "\nbot dylan : " + reactHello + "!")
+                  } else { } }  setTimeout( function() { if (Else === true) {botSays("\n\ni'm afraid you'll have to ask me something else- i'm quite a simple bot at the moment."); } } , 700);  setTimeout( function() {Else = true; botChat.scrollTop = botChat.scrollHeight;}, 730)
+              } function botSays(x) {
+                  document.getElementsByTagName("textarea")[0].innerHTML += x;
+              } function youSay(x) { botSays("\n"+ you + " \ : " + x)
+              }
+              function youDo(x) { botSays("\n"+ you + " " + x)
+              } function enterButton(e, x) { if (e.keyCode == 13) { answer(x); }   }
+    </script></body></html>
+
+  </div>
+
+  <script>
+  var slideIndex = 1;
+  showSlides(slideIndex);
+
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+
+  function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+  }
+
+    function openPage(pageName, elmnt, color) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].style.backgroundColor = "";
+  }
+
+  document.getElementById(pageName).style.display = "block";
+  elmnt.style.backgroundColor = color;
+}
+
+document.getElementById("defaultOpen").click();
+  </script>
+
+  <meta charset="utf-8">
+  <title>navbar</title>
+  <link rel="stylesheet" href="navBar.css"
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  </html>
